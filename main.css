@@ -1,0 +1,28 @@
+nav {
+    /* font-family: Courier New, Courier, monospace;
+  font-style: italic;
+  font-size: 50px; */
+    text-align: center;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* .navigation li a {
+  color: greenyellow;
+} */
+
+section {
+    height: 700px;
+}
