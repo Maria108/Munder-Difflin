@@ -3,6 +3,13 @@ nav {
   font-style: italic;
   font-size: 50px; */
     text-align: center;
+    background-color: black;
+    /* background-image: url('craft.jpg'); */
+    /* background-attachment: fixed; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* text-decoration-color: azure; */
 }
 
 ul.navigation {
@@ -18,11 +25,80 @@ ul.navigation {
     padding: 10px;
 }
 
-
-/* .navigation li a {
-  color: greenyellow;
-} */
+.navigation li a {
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
 
 section {
     height: 700px;
+}
+
+#firstSection {
+    height: 500px;
+    background-image: url('images/blackf.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right 95%;
+    /* background-attachment: fixed; */
+}
+
+#secondSection {
+    background-image: url('images/office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+
+/* #thirdSection {
+    background-color: 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(Ginga.ttf.woff);
+} */
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 200px;
+}
+
+.header {
+    top: 50%;
+    left: 50%;
+}
+
+.image {
+    display: inline-block;
+    width: 40%;
+    /* margin: 10px; */
+}
+
+.paragraph {
+    display: inline-block;
+    width: 40%;
+    /* height: 75px;*/
+    /* margin: 10px; */
+}
+
+footer {
+    margin: 25px;
+    text-align: right;
+    background-color: black;
+    /* background-image: url('craft.jpg'); */
+    /* background-attachment: fixed; */
+}
+
+footer a {
+    color: azure;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
 }
