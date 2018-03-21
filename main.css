@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 nav {
     /* font-family: Courier New, Courier, monospace;
   font-style: italic;
@@ -47,6 +51,7 @@ ul.navigation {
 
 section {
     height: 88vh;
+    padding: 25px;
 }
 
 #firstSection {
@@ -59,16 +64,26 @@ section {
 }
 
 #secondSection {
-    background-image: url('images/office.jpg');
+    background-image: url('images/office.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
 }
 
 #thirdSection {
-    background-image: url('images/paper.jpeg');
-    background-repeat: no-repeat;
-    background-size: 50%;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-image: url(images/forest.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 13em;
+    color: azure;
 }
 
 h1 {
@@ -83,7 +98,8 @@ h1 {
     display: flex;
 }
 
-p {
+p,
+h2 {
     font-family: 'Handlee', cursive;
 }
 
@@ -91,17 +107,24 @@ p {
     font-size: 40px;
 }
 
-.image {
+
+/* .icon {
     display: inline-block;
-    width: 40%;
-    /* margin: 10px; */
-}
+    color: green;
+    margin: 10px;
+} */
 
 .paragraph {
-    display: inline-block;
-    width: 40%;
+    /* display: inline-block; */
+    text-align: center;
+    width: 50%;
     /* height: 75px;*/
-    /* margin: 10px; */
+    margin: 100px 0;
+    font-size: 25px;
+}
+
+#thirdSection {
+    display: flex;
 }
 
 footer {
@@ -122,13 +145,15 @@ footer a {
 #tel {
     color: azure;
     font-family: 'Handlee', cursive;
-    font-size: 20px;
+    font-size: 17px;
     float: left;
+    margin: 0px 15px;
 }
 
 #mail {
     color: azure;
     font-family: 'Handlee', cursive;
-    font-size: 20px;
+    font-size: 17px;
     float: left;
+    margin: 0px 15px;
 }
