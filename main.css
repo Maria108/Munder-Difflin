@@ -11,7 +11,8 @@ nav {
 }
 
 .nav {
-    opacity: 0.5;
+    opacity: 0.75;
+    transition: opacity 1s;
 }
 
 #gamburger {
@@ -102,7 +103,7 @@ section {
 }
 
 #firstSection {
-    height: 100vh;
+    height: 90vh;
     background-image: url('images/blackf.jpg');
     background-repeat: no-repeat;
     background-size: 60%;

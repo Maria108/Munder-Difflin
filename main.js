@@ -11,13 +11,15 @@ function toggleMenu(event) {
     }
 }
 
-// let navBar = document.getElementById('nav')
+let navBar = document.getElementById('main-nav')
 
-// window.addEventListener('scroll', (event) => {
-//     if (window.scrollY === 200) {
-//         navBar.className = "nav";
-//     }
-// });
+window.addEventListener('scroll', (event) => {
+    if (window.scrollY >= 100) {
+        navBar.className = "nav";
+    } else {
+        navBar.className = "";
+    }
+});
 
 let slider = document.getElementById('slider');
 
