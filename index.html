@@ -1,19 +1,23 @@
 <html>
 
 <head>
-    <link rel='stylesheet' href='main.css'>
+    <link href='main.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <title>Munder Difflin</title>
 </head>
 
 <body>
     <nav>
+        <span id="logo"><a href="#secondSection">Munder Difflin</a></span>
         <!-- about us / our product / customer / order / contacts || fixed craft background-->
         <ul class="navigation">
-            <li><a href="#secondSection">About us</a></li>
-            <li><a href="#thirdSection">Our product</a></li>
-            <li><a href="#fourthSection">Our customers</a></li>
+            <li><a href="#contacts">Contacts</a></li>
             <li><a href="">Order</a></li>
-            <li><a href='#contacts'>Contacts</a></li>
+            <li><a href="#fourthSection">Our customers</a></li>
+            <li><a href="#thirdSection">Our product</a></li>
+            <li><a href="#secondSection">About us</a></li>
         </ul>
     </nav>
     <section id='firstSection'>
@@ -24,7 +28,7 @@
     </section>
     <section id='secondSection'>
         <!-- what we are doing/ slide pictures / 3 buttons -->
-        <p>
+        <p id="product">
             we produce paper for all ocasions
         </p>
 
@@ -32,7 +36,7 @@
     <section id='thirdSection'>
         <!-- recicle part -->
         <div class='image'>
-            <img src='recicle.jpg'>
+            <!-- <img src='images/paper.jpeg'> -->
         </div>
         <div class='paragraph'>
             <p>
@@ -51,10 +55,12 @@
     </section>
     <footer id='contacts'>
         <!-- our contucts -->
-        <a href="https://www.facebook.com/masha.dasi.5" target="_blank">Facebook Profile</a>
-        <a href="https://www.instagram.com/108masha/" target="_blank">Instagram Profile</a>
-        <a href="" target="_blank">Order</a>
-
+        <span id="tel">tel 8-888-8888</span>
+        <span id="mail"><i class="fas fa-envelope"></i>mailme@gmail.com</span>
+        <a href="https://www.facebook.com/masha.dasi.5" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/108masha/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/108masha/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/108masha/" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
     </footer>
     <script src='main.js'></script>
 </body>

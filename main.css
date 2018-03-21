@@ -2,7 +2,7 @@ nav {
     /* font-family: Courier New, Courier, monospace;
   font-style: italic;
   font-size: 50px; */
-    text-align: center;
+    /* text-align: center; */
     background-color: black;
     /* background-image: url('craft.jpg'); */
     /* background-attachment: fixed; */
@@ -10,6 +10,19 @@ nav {
     top: 0;
     width: 100%;
     /* text-decoration-color: azure; */
+}
+
+#logo {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+#logo a {
+    color: azure;
+    font-family: 'Ruthie', cursive;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 ul.navigation {
@@ -21,25 +34,26 @@ ul.navigation {
 
 .navigation li {
     float: right;
-    margin: 10px;
+    margin: 15px 10px;
     padding: 10px;
 }
 
 .navigation li a {
+    font-family: 'Handlee', cursive;
     font-size: 20px;
     color: azure;
     text-decoration: none;
 }
 
 section {
-    height: 700px;
+    height: 88vh;
 }
 
 #firstSection {
-    height: 500px;
+    height: 100vh;
     background-image: url('images/blackf.jpg');
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 60%;
     background-position: right 95%;
     /* background-attachment: fixed; */
 }
@@ -51,28 +65,30 @@ section {
     /* background-attachment: fixed; */
 }
 
-
-/* #thirdSection {
-    background-color: 
+#thirdSection {
+    background-image: url('images/paper.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-
-/* @font-face {
-    font-family: myFirstFont;
-    src: url(Ginga.ttf.woff);
-} */
+    background-size: 50%;
+}
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Mr De Haviland', cursive; */
+    font-family: 'Ruthie', cursive;
     text-align: left;
-    font-size: 200px;
+    font-size: 180px;
+    padding-left: 60px;
 }
 
 .header {
-    top: 50%;
-    left: 50%;
+    display: flex;
+}
+
+p {
+    font-family: 'Handlee', cursive;
+}
+
+#product {
+    font-size: 40px;
 }
 
 .image {
@@ -89,7 +105,7 @@ h1 {
 }
 
 footer {
-    margin: 25px;
+    padding: 15px;
     text-align: right;
     background-color: black;
     /* background-image: url('craft.jpg'); */
@@ -101,4 +117,18 @@ footer a {
     text-decoration: none;
     margin: 20px;
     padding: 20px;
+}
+
+#tel {
+    color: azure;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    float: left;
+}
+
+#mail {
+    color: azure;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    float: left;
 }
