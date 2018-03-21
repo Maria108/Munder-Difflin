@@ -3,17 +3,10 @@ body {
 }
 
 nav {
-    /* font-family: Courier New, Courier, monospace;
-  font-style: italic;
-  font-size: 50px; */
-    /* text-align: center; */
     background-color: black;
-    /* background-image: url('craft.jpg'); */
-    /* background-attachment: fixed; */
     position: fixed;
     top: 0;
     width: 100%;
-    /* text-decoration-color: azure; */
 }
 
 #logo {
@@ -49,6 +42,10 @@ ul.navigation {
     text-decoration: none;
 }
 
+.header {
+    display: flex;
+}
+
 section {
     height: 88vh;
     padding: 25px;
@@ -60,14 +57,12 @@ section {
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: right 95%;
-    /* background-attachment: fixed; */
 }
 
 #secondSection {
     background-image: url('images/office.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
 }
 
 #thirdSection {
@@ -79,7 +74,8 @@ section {
     align-items: center;
     justify-content: center;
     width: 50%;
-    background-image: url(images/forest.jpg);
+    background-image: url("images/forest.jpeg");
+    background-attachment: fixed;
     background-size: cover;
     border-radius: 50%;
     font-size: 13em;
@@ -87,15 +83,10 @@ section {
 }
 
 h1 {
-    /* font-family: 'Mr De Haviland', cursive; */
     font-family: 'Ruthie', cursive;
     text-align: left;
     font-size: 180px;
     padding-left: 60px;
-}
-
-.header {
-    display: flex;
 }
 
 p,
@@ -107,32 +98,57 @@ h2 {
     font-size: 40px;
 }
 
-
-/* .icon {
-    display: inline-block;
-    color: green;
-    margin: 10px;
-} */
-
 .paragraph {
-    /* display: inline-block; */
     text-align: center;
     width: 50%;
-    /* height: 75px;*/
     margin: 100px 0;
     font-size: 25px;
 }
 
-#thirdSection {
+#fourthSection {
     display: flex;
+    background-image: url("images/team.jpeg");
+    background-size: cover;
+}
+
+#fifthSection {
+    display: flex;
+    background-image: url("images/ink.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right 95%;
+}
+
+.team {
+    text-align: center;
+    /* width: 50%;
+    margin: 100px 0; */
+    font-size: 25px;
+}
+
+.customer {
+    width: 50%;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+img {
+    margin: 30px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.review {
+    text-align: left;
+    width: 50%;
+    margin: 100px 0;
+    font-size: 25px;
 }
 
 footer {
     padding: 15px;
     text-align: right;
     background-color: black;
-    /* background-image: url('craft.jpg'); */
-    /* background-attachment: fixed; */
 }
 
 footer a {
@@ -142,14 +158,7 @@ footer a {
     padding: 20px;
 }
 
-#tel {
-    color: azure;
-    font-family: 'Handlee', cursive;
-    font-size: 17px;
-    float: left;
-    margin: 0px 15px;
-}
-
+#tel,
 #mail {
     color: azure;
     font-family: 'Handlee', cursive;
