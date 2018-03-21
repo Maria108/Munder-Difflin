@@ -9,7 +9,7 @@ nav {
     width: 100%;
 }
 
-.gamburger {
+#gamburger {
     display: none;
     color: azure;
     float: right;
@@ -17,6 +17,40 @@ nav {
     margin: 10px;
     padding: 10px;
 }
+
+#newMenu {
+    background-color: black;
+    display: none;
+    height: 100vh;
+    margin: 80px 0;
+}
+
+.newNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newNav li {
+    margin: 0 auto;
+}
+
+.newNav li a {
+    font-family: 'Handlee', cursive;
+    font-size: 40px;
+    color: azure;
+    text-decoration: none;
+}
+
+.newNav li a:hover {
+    color: aqua;
+}
+
+
+/* .newNav li {
+    margin: 15px;
+    padding: 10px;
+} */
 
 #logo {
     margin: 10px;
@@ -131,7 +165,8 @@ h2 {
 }
 
 #product {
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .paragraph {
@@ -203,10 +238,10 @@ footer a {
 }
 
 @media only screen and (max-width: 850px) {
-    .gamburger {
+    #gamburger {
         display: block;
     }
-    ul {
+    .navigation {
         display: none;
     }
 }
