@@ -7,6 +7,11 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 3;
+}
+
+.nav {
+    opacity: 0.5;
 }
 
 #gamburger {
@@ -45,12 +50,6 @@ nav {
 .newNav li a:hover {
     color: aqua;
 }
-
-
-/* .newNav li {
-    margin: 15px;
-    padding: 10px;
-} */
 
 #logo {
     margin: 10px;
@@ -98,8 +97,8 @@ ul.navigation {
 }
 
 section {
-    height: 90vh;
-    padding: 25px;
+    height: 100vh;
+    padding: 77px 25px 25px 25px;
 }
 
 #firstSection {
@@ -110,7 +109,15 @@ section {
     background-position: right 95%;
 }
 
-#secondSection {}
+
+/* 2nd section */
+
+#secondSection {
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .link-btn {
     color: azure;
@@ -118,7 +125,50 @@ section {
     padding: 20px 30px;
     border-radius: 2em;
     text-decoration: none;
+    margin: 300px;
 }
+
+.slider {
+    height: 100%;
+    white-space: nowrap;
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.slider-text {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.slide {
+    background-size: cover;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+#slide-0 {
+    background-image: url('images/office.jpeg');
+}
+
+#slide-1 {
+    background-image: url('images/origami.jpg');
+}
+
+#slide-2 {
+    background-image: url('images/kids.jpeg');
+}
+
+
+/* .link-btn {
+    color: azure;
+    background: black;
+    padding: 20px 30px;
+    border-radius: 2em;
+    text-decoration: none;
+} */
 
 #firstSLide {
     background-image: url("images/office.jpeg");
@@ -217,6 +267,8 @@ img {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     padding: 15px;
     text-align: right;
     background-color: black;
@@ -225,8 +277,8 @@ footer {
 footer a {
     color: azure;
     text-decoration: none;
-    margin: 20px;
-    padding: 20px;
+    margin: 0 20px;
+    padding: 10px 20px;
 }
 
 #tel,
@@ -234,7 +286,16 @@ footer a {
     color: azure;
     font-family: 'Handlee', cursive;
     font-size: 17px;
-    float: left;
+}
+
+.contacts-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 850px) {
@@ -243,5 +304,8 @@ footer a {
     }
     .navigation {
         display: none;
+    }
+    footer {
+        flex-direction: column;
     }
 }
