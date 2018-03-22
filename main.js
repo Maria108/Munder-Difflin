@@ -61,13 +61,13 @@ prevRev.addEventListener("click", (event) => {
 
 let comments = [{
         picture: "images/customer.jpeg",
-        text: "I love Munder Difflin! <br>Lorem ipsum dolor, facilis quisquam dolorum soluta quibusdam tempore! Consectetur nam quas, ut reprehenderit impedit assumenda totam ex placeat facere."
+        text: "I love Munder Difflin! <br>Lorem ipsum dolor, facilis quisquam dolorum soluta quibusdam tempore! Consectetur nam quas, ut reprehenderit impedit assumenda totam ex placeat facere.<br><br>Michael Wood, Facebook"
     },
     {
         picture: "images/customer2.jpeg",
-        text: "Only you Munder Difflin! <br>Lorem, ipsum dolor sit. Porro a odit veniam optio mollitia eos ab quas rem ut nam labore necessitatibus excepturi quae in, cupiditate doloremque"
+        text: "Only you Munder Difflin! <br>Lorem, ipsum dolor sit. Porro a odit veniam optio mollitia eos ab quas rem ut nam labore necessitatibus excepturi quae in, cupiditate doloremque<br><br>Zhanna Bogger, GEO"
     }, {
         picture: "images/customer3.png",
-        text: "My Favourite paper! <br>Lorem ipsum dolor sit amet. Maiores blanditiis saepe officia iure, ab aliquam vero eos velit laboriosam quas, quis eius eaque."
+        text: "My Favourite paper! <br>Lorem ipsum dolor sit amet. Maiores blanditiis saepe officia iure, ab aliquam vero eos velit laboriosam quas, quis eius eaque.<br><br>Dart Vader, Conqueror"
     }
 ]
