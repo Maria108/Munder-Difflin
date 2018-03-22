@@ -98,20 +98,16 @@ ul.navigation {
 }
 
 section {
-    height: 100vh;
+    height: 90vh;
     padding: 77px 25px 25px 25px;
 }
 
 #firstSection {
-    height: 90vh;
     background-image: url('images/blackf.jpg');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: right 95%;
 }
-
-
-/* 2nd section */
 
 #secondSection {
     position: relative;
@@ -155,21 +151,12 @@ section {
 }
 
 #slide-1 {
-    background-image: url('images/origami.jpg');
+    background-image: url('images/origami.jpeg');
 }
 
 #slide-2 {
-    background-image: url('images/kids.jpeg');
+    background-image: url('images/sneg.jpg');
 }
-
-
-/* .link-btn {
-    color: azure;
-    background: black;
-    padding: 20px 30px;
-    border-radius: 2em;
-    text-decoration: none;
-} */
 
 #firstSLide {
     background-image: url("images/office.jpeg");
@@ -177,12 +164,12 @@ section {
 }
 
 #secondSLide {
-    background-image: url("images/origami.jpg");
+    background-image: url("images/origami.jpeg");
     background-size: cover;
 }
 
 #thirdSLide {
-    background-image: url("images/kids.jpeg");
+    background-image: url("images/sneg.jpg");
     background-size: cover;
 }
 
@@ -234,6 +221,7 @@ h2 {
 }
 
 #fifthSection {
+    position: relative;
     display: flex;
     background-image: url("images/ink.jpg");
     background-repeat: no-repeat;
@@ -243,19 +231,16 @@ h2 {
 
 .team {
     text-align: center;
-    /* width: 50%;
-    margin: 100px 0; */
     font-size: 25px;
 }
 
 .customer {
     width: 50%;
-    /* border-radius: 50%; */
     overflow: hidden;
 }
 
 img {
-    margin: 30px;
+    margin: 35px 40px;
     width: 80%;
     border-radius: 50%;
 }
@@ -265,6 +250,21 @@ img {
     width: 50%;
     margin: 75px 0;
     font-size: 25px;
+}
+
+.arrow {
+    font-size: 5em;
+    position: absolute;
+    top: 53%;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+#right {
+    left: 80%
 }
 
 footer {
