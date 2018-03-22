@@ -122,7 +122,7 @@ section {
     padding: 20px 30px;
     border-radius: 2em;
     text-decoration: none;
-    margin: 300px;
+    margin: 300px 350px;
 }
 
 .slider {
@@ -134,9 +134,9 @@ section {
 
 .slider-text {
     position: absolute;
-    top: 25px;
+    top: 10%;
     left: 50%;
-    margin-left: -400px;
+    margin-left: -440px;
 }
 
 .slide {
@@ -151,26 +151,11 @@ section {
 }
 
 #slide-1 {
-    background-image: url('images/origami.jpeg');
-}
-
-#slide-2 {
     background-image: url('images/sneg.jpg');
 }
 
-#firstSLide {
-    background-image: url("images/office.jpeg");
-    background-size: cover;
-}
-
-#secondSLide {
-    background-image: url("images/origami.jpeg");
-    background-size: cover;
-}
-
-#thirdSLide {
-    background-image: url("images/sneg.jpg");
-    background-size: cover;
+#slide-2 {
+    background-image: url('images/kids.jpg');
 }
 
 #thirdSection {
@@ -232,6 +217,10 @@ h2 {
 .team {
     text-align: center;
     font-size: 25px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .customer {
