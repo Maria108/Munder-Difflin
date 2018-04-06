@@ -2,7 +2,7 @@ let gambMenu = document.getElementById("gamburger")
 gambMenu.addEventListener("click", toggleMenu)
 
 function toggleMenu(event) {
-    let newMenu = document.getElementById("newMenu")
+    let newMenu = document.getElementById("new-menu")
     if (newMenu.style.display === "block") {
         newMenu.style.display = "none"
     } else {
@@ -61,13 +61,13 @@ prevRev.addEventListener("click", (event) => {
 
 let comments = [{
         picture: "images/customer.jpeg",
-        text: "I love Munder Difflin! <br>Lorem ipsum dolor, facilis quisquam dolorum soluta quibusdam tempore! Consectetur nam quas, ut reprehenderit impedit assumenda totam ex placeat facere.<br><br>Michael Wood, Facebook"
+        text: "I love Munder Difflin! <br>The customer service here was awesome, The Salesperson took me out to chillis! We ate ribs and split a blooming onion! They will have our business for years to come!<br><br>Michael Wood, Facebook"
     },
     {
         picture: "images/customer2.jpeg",
-        text: "Only you Munder Difflin! <br>Lorem, ipsum dolor sit. Porro a odit veniam optio mollitia eos ab quas rem ut nam labore necessitatibus excepturi quae in, cupiditate doloremque<br><br>Zhanna Bogger, GEO"
+        text: "Only you Munder Difflin! <br>Great Company, even better service, and once we even won a 50% discount from a golden ticket in Willy Wonka fashion.<br><br>Zhanna Bogger, GEO"
     }, {
         picture: "images/customer3.png",
-        text: "My Favourite paper! <br>Lorem ipsum dolor sit amet. Maiores blanditiis saepe officia iure, ab aliquam vero eos velit laboriosam quas, quis eius eaque.<br><br>Dart Vader, Conqueror"
+        text: "My Favourite paper! <br>I love the variety of salesmen at Dunder Mifflin, very diverse, they really know how to fill my paper needs.<br><br>Dart Vader, Conqueror"
     }
 ]
