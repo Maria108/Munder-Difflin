@@ -1,24 +1,18 @@
 # Munder Difflin Paper
 
-Check it out [here](https://maria108.github.io/Munder-Difflin/)
+Description
+First individual project during Software Engineering Intensive course at New York Code and Design Academy.
+It is an one-page website for a fictional paper company that is exciting for the end user and
+provides information about company's services.
 
-Goal:
+Requirements
+The requirements for completing this project are:
+- be one page
+- have HTML tags be semantically relevant to the content it contains
+- have at least one useful animation on the page
+- have at least one useful javascript event callback (click, hover, keydown, etc)
 
-To create a one page website for a fictional paper company that is exciting for the end user.
+Technologies Used
+HTML, CSS, JS
 
-Instructions:
-
-You have been hired by a fictional paper company to build a one page informational web page that highlights the best aspects of their business. During your meetings with them, they have indicated to you that they feel they need to present their product in a more exciting way. Think of ways you could make their product stand out. It could be interesting use of color palette or animations.
-
-Completion Requirements:
-
-The completed assignment should:
-
-have a wireframe
-be one page
-have HTML tags be semantically relevant to the content it contains
-make proper use of classes and id’s to target content
-ids must be used for an individual element
-classes should be used for grouped elements
-have at least one useful animation on the page
-have at least one useful javascript event callback (click, hover, keydown, etc)
+Project uploaded to Github and can be accessed at https://maria108.github.io/Munder-Difflin/
