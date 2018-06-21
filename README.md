@@ -1,5 +1,7 @@
 # Munder Difflin Paper
 
+![Munder Difflin Paper](https://user-images.githubusercontent.com/32076687/41740489-337381f8-7566-11e8-8b80-f58e13c2abf6.png)
+
 Description
 First individual project during Software Engineering Intensive course at New York Code and Design Academy.
 It is an one-page website for a fictional paper company that is exciting for the end user and
