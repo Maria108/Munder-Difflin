@@ -4,7 +4,7 @@
 
 Description
 First individual project during Software Engineering Intensive course at New York Code and Design Academy.
-It is an one-page website for a fictional paper company that is exciting for the end user and
+It is an single-page website for a fictional paper company that is exciting for the end user and
 provides information about company's services.
 
 Requirements
